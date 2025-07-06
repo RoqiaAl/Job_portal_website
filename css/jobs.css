@@ -1,0 +1,64 @@
+.back-to-top {
+    position: fixed;
+    display: none;
+    right: 45px;
+    bottom: 45px;
+    z-index: 99;
+}
+
+
+/*** Button ***/
+
+.btn {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    transition: .5s;
+    background: linear-gradient(to right, #00e0fe, #1107fe);
+    border: none;
+    border-radius: 10px;
+}
+
+
+.btn.btn-primary,
+.btn.btn-secondary {
+    color: #FFFFFF;
+}
+
+.btn-lg-square {
+    width: 48px;
+    height: 48px;
+}
+
+.btn-lg-square {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+    border-radius: 2px;
+}
+
+
+
+/*** Job Listing ***/
+
+.job-item {
+    border: 1px solid transparent;
+    border-radius: 2px;
+    box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+    transition: .5s;
+}
+
+.job-item:hover {
+    border-color: rgba(0, 0, 0, .08);
+    box-shadow: none;
+}
+
+.detail {
+    margin-top: 30px;
+    background: linear-gradient( rgba(216, 228, 230, 0.7), rgba(11, 92, 255, 0.7));
+    border-radius: 20px;
+    color: white;
+}
+
+

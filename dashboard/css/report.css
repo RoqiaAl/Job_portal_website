@@ -1,0 +1,32 @@
+
+    .report{
+        border: 1px solid #555e58;
+        background-color: lightgray;
+        border-radius: 5px;
+        margin: 10px 15px;
+        color: black;
+        padding: 10px;
+    }
+    .report_item{
+        display: flex;
+        gap: 5px;
+        color:#28a745 ;
+        font-size: 30px;
+    }
+    .report_item li span{
+        color: rgb(199, 186, 11);
+        font-size: 50px;
+    }
+    
+    .review {
+        max-width: 50px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .review.expanded {
+        max-width: none;
+        overflow: visible;
+        white-space: normal;
+    }
